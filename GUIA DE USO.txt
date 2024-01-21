@@ -1,0 +1,31 @@
+**BIENVENIDO A LA GUIA PARA LA CONEXIÓN LOCAL DEL PROGRAMA DE TRACKING DE INVERSIONES**
+
+### Pasos a seguir para ejecutar la aplicacion a nivel local
+
+Antes de ejecutar, asegúrese de que esté instalada la versión 12 de Nodejs.
+Para verificar si Node está instalado o qué versión está actualmente instalada, ejecute:
+
+**node --version**
+
+Este programa utiliza la version 12.22.12 si no la tiene instalada, puede hacerlo a traves de este link:  https://nodejs.org/dist/v12.22.12/node-v12.22.12-x64.msi.
+
+
+### PASOS PARA ARRANCAR A NIVEL LOCAL EL SERVICIO DE DATOS DE LA API
+
+1. Copie o mueva el programa **"PROGRAMA-CONEXION-API"** a **C:\Users\"TU USUARIO"**, el traslado llevará algo de tiempo al ser un programa pesado.
+
+2. Abre tu consola y escribe **cd PROGRAMA-CONEXION-API** para trabajar en la carpeta del programa
+
+3. Instala las dependencias para que el programa funcione correctamente (Aquí asegurate de que tienes el Nodejs 12)
+   
+    **npm install**
+ 
+3.  Construye el frontend 
+   
+    **npm run-script ng build**
+   
+4. Arranca el servidor a nivel local
+    
+    **npm run devstart**
+
+¡ENHORABUENA YA TIENES EL SERVIDOR LOCAL INICIADO, YA PODRÁS ABRIR LA APP Y DISFRUTAR!
